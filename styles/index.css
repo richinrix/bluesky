@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@300&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.orange-button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 20px 35px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .orange-button {
+    font-size: 12px;
+  }
+}
+.orange-button-bg {
+  background-color: #f2994a;
+  color: #fff;
+  border: none;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 152, 74, 0.233);
+}
+
+.orange-button-border {
+  padding: 18px 33px;
+  background-color: none;
+  color: #f2994a;
+  border: solid 2px #f2994a;
+}
+Link {
+  cursor: pointer;
+}
+
+.bg-runningman {
+  background-image: url("../assets/particles/runningman.png");
+}
+.bg-traffic-img {
+  background-image: url("../assets/overview.png");
+}
+.projects-orbit-bg {
+  background-image: url("../assets/particles/particles_orbit.png");
+}
+.raining-particles-bg {
+  background-image: url("../assets/particles/raining_rays.png");
+}
+.ray-particles {
+  background-image: url("../assets/particles/ray_particles.png");
+}
+.ray-particles2 {
+  background-image: url("../assets/particles/ray_particles2.png");
+}
+.particles-standing-lines {
+  background-image: url("../assets/particles/standing_lines.png");
+}
+.world-map-bg {
+  background-image: url("../assets/worldmap.png");
+}
+.news-letter-bg {
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+}
+.bg-gradient {
+  background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+}

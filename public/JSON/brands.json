@@ -1,0 +1,32 @@
+[
+  {
+    "name": "appcues",
+    "link": "https://appcues.com/",
+    "image": "/images/brands/appcues.png"
+  },
+  {
+    "name": "bench",
+    "link": "https://bench.com/",
+    "image": "/images/brands/bench.png"
+  },
+  {
+    "name": "demio",
+    "link": "https://demio.com/",
+    "image": "/images/brands/demio.png"
+  },
+  {
+    "name": "profitwell",
+    "link": "https://profitwell.com/",
+    "image": "/images/brands/profitwell.png"
+  },
+  {
+    "name": "subbly",
+    "link": "https://subbly.com/",
+    "image": "/images/brands/subbly.png"
+  },
+  {
+    "name": "shipbob",
+    "link": "https://shipbob.com/",
+    "image": "/images/brands/shipbob.png"
+  }
+]
