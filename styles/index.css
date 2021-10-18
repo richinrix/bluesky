@@ -67,6 +67,10 @@ Link {
 .world-map-bg {
   background-image: url("../assets/worldmap.png");
 }
+.aboutus-bgImg {
+  background-image: url("https://corcoranpacific.com/Themes/Corcoran-Pacific/img/hero-images/join-us-2.jpg");
+}
+
 .news-letter-bg {
   background: rgba(60, 62, 125, 0.19);
   backdrop-filter: blur(134px);

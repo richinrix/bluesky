@@ -89,9 +89,6 @@ export default function Nav() {
         id="mobNav"
         className="md:hidden overflow-hidden top-0 fixed z-50 w-full flex justify-between pr-2 items-center h-auto"
       >
-        {/* <Link passHref href="/">
-          <div className={scrollDetect ? "defLogo smallLogo" : "defLogo"} />
-        </Link> */}
         <nav
           id="sideMenu"
           className="text-xl sideMenu fixed p-36 text-center inset-y-0 bg-brand-bg1 right-0 transform transition items-center translate-x-full duration-500 ease-in-out uppercase min-h-screen w-full flex z-10 flex-col justify-around min-w-screen"
