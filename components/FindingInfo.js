@@ -7,6 +7,7 @@ import feature2 from "../assets/icons/feature2.png";
 export default function FindingInfo() {
   return (
     <div className="h-screen flex flex-col md:flex-row w-full items-center relative px-5 md:px-20 ">
+      {/* image */}
       <div className="w-full md:w-2/5 h-full flex items-center justify-start ">
         <Image src={BgImg} width={500} height={440} />
       </div>
@@ -49,6 +50,7 @@ export default function FindingInfo() {
           </div>
         </div>
       </div>
+      {/* background image */}
       <div className="bg-no-repeat bg-right  -right-2  absolute ray-particles w-full h-full" />
     </div>
   );

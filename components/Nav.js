@@ -35,17 +35,9 @@ export default function Nav() {
   const resize = () => {
     $("#sideMenu").addClass("translate-x-full");
   };
-  const [scrollDetect, setScrollDetect] = useState(false);
-  // Changing value of variable when scroll is encountered
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrollDetect(true);
-    } else {
-      setScrollDetect(false);
-    }
-  };
   return (
     <>
+      {/* desktop */}
       <div className="hidden md:flex w-full py-6 px-20  ">
         <div className="p-2 cursor-pointer ">
           <Link href="/" passHref>

@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function MeetTeam() {
+  // team info
   const team = [
     {
       name: "Bruce",
@@ -44,7 +45,6 @@ export default function MeetTeam() {
         }}
       >
         <div className="w-full">
-          {/* <img className="card-img-top" src={image} alt="Card image cap" /> */}
           <div className="text-center md:my-5 w-full">
             <h5 className="text-brand-lightblue md:text-brand-bg3 font-bold text-xl ">
               {name}
@@ -62,6 +62,7 @@ export default function MeetTeam() {
       <div className="text-2xl md:text-4xl font-semibold text-brand-lightblue font-inter md:my-20">
         Meet The Team
       </div>
+      {/* mapping team data */}
       <div className="flex flex-wrap md:flex-nowrap md:flex-row  justify-center">
         {team.map((item, index) => {
           return imageCard(item.img, item.name, item.role, index);

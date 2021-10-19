@@ -52,6 +52,7 @@ export default function Choices() {
         There are many reasons to get down and start to get depressed about your
         situation
       </div>
+      {/* mapping the choices */}
       <div className="flex items-center md:px-20 flex-wrap justify-center mt-10 ">
         {choices.map((choice) => {
           return (

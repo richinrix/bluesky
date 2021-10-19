@@ -1,5 +1,5 @@
 import React from "react";
-// images
+// json
 import brands from "../public/JSON/brands.json";
 
 export default function Brands() {

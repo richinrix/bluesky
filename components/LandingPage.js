@@ -1,9 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaPlay } from "react-icons/fa";
-import PlayIcon from "../assets/icons/play.png";
 // images
+import PlayIcon from "../assets/icons/play.png";
 
 export default function LandingPage() {
   return (
@@ -35,11 +34,7 @@ export default function LandingPage() {
             <Link href="/preview" passHref>
               <div className="rounded cursor-pointer bg-brand-bg2 h-20 md:h-24 w-2/4  md:w-1/4">
                 <div className="flex justify-center items-center h-full w-full ">
-                  <Image
-                    src={PlayIcon}
-                    alt="play"
-                    // className="text-5xl p-3 bg-white text-brand-bg2  rounded-full "
-                  />
+                  <Image src={PlayIcon} alt="play" />
                 </div>
               </div>
             </Link>
@@ -59,11 +54,12 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      {/* background image */}
       <div
         className="w-full  opacity-80 md:opacity-100 md:w-7/12 absolute top-20 md:-right-20 md:pl-30  h-90vh flex justify-end"
         style={{ zIndex: "1" }}
       >
-        <div className="bg-cover bg-left  md:bg-top bg-no-repeat w-full h-full bg-runningman opacity-50 md:opacity-100 "></div>
+        <div className="bg-cover bg-left  md:bg-top bg-no-repeat w-full h-full bg-runningman opacity-50 md:opacity-100 " />
       </div>
     </div>
   );

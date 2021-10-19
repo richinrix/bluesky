@@ -32,6 +32,7 @@ export default function about() {
           </p>
         </div>
       </div>
+      
       <MeetTeam />
       <Footer />
     </div>

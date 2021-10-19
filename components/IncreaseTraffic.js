@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function IncreaseTraffic() {
   return (
     <div className="md:h-screen flex flex-col-reverse md:flex-row w-full items-center justify-center relative  ">
+      {/* background image */}
       <div className="bg-no-repeat bg-left -bottom-72 -left-32  absolute ray-particles2 w-full h-full" />
       <div className=" w-full  md:w-1/2   flex-col justify-center  md:justify-end  items-center px-5 ml-20 md:ml-36">
         <div className="text-2xl md:text-5xl text-brand-lightblue font-semibold w-5/6   md:w-3/4 ">
@@ -23,7 +24,7 @@ export default function IncreaseTraffic() {
           </button>
         </div>
       </div>
-
+      {/* image */}
       <div className=" w-5/6 md:w-1/2 h-full flex items-center justify-center ">
         <Image src={BgImg} width={400} height={440} />
       </div>
